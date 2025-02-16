@@ -6,6 +6,10 @@ on:
   push:
     # Runs on pushes targeting the default branch
     branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 env:
   # `BASE_URL` determines the website is served from, including CSS & JS assets
   # You may need to change this to `BASE_URL: ''`
